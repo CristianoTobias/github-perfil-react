@@ -16,7 +16,9 @@ function App() {
           <ReposList nameUser={nameUser} />
         </>
       )}
-      {/* {formIsVisible && <Formulario />}
+      {/*
+      uncomment this form for learn
+      {formIsVisible && <Formulario />}
       <button onClick={() => setFormIsVisible(!formIsVisible)} type='button'>toggle form</button> */}
     </>
   )
