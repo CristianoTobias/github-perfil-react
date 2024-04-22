@@ -1,14 +1,21 @@
 .list {
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
- gap: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
 }
+
 .listItem {
-list-style: none;
-padding: 16px;
-border: 1px solid rgba(0,0,0,.1);
+    list-style: none;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.itemName b, .itemLanguage b {
+
+.itemName b,
+.itemLanguage b {
     margin-right: 8px;
 
 }
